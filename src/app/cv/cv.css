@@ -1,0 +1,11 @@
+#cv {
+    background-color: #ffe6fe;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+#cv h3 {
+    text-align: center;
+    padding-top: 10px;
+}

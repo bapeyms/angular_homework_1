@@ -1,0 +1,27 @@
+#main-content-1 {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 9px;
+}
+#hobby-desc {
+    width: 100%;
+    height: 100%;
+    background-color: #ffe6fe;
+}
+#title-ei {
+    font-weight: 600;
+}
+#photo-ei {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#photo-ei img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+

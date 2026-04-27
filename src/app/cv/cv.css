@@ -9,3 +9,10 @@
     text-align: center;
     padding-top: 10px;
 }
+#cv img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}

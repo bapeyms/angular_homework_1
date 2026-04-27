@@ -1,0 +1,10 @@
+#cv-links {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #f9cef7;
+    margin: 20px 20px 9px 20px;
+}
+#cv-links p:hover {
+    text-decoration: underline;
+}

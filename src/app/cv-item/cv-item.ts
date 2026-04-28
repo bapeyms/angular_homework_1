@@ -1,13 +1,33 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cv-item',
-  imports: [],
   standalone: true,
   templateUrl: './cv-item.html',
   styleUrl: './cv-item.css',
 })
 export class CvItem {
-  @Input() text: string = '';
-  @Input() value: string = '';
+  text1 = 'Full Name';
+  value1 = 'Pusheen';
+
+  text2 = 'Email';
+  value2 = 'pusheen@gmail.com';
+
+  text3 = 'Phone';
+  value3 = '+123456789';
+
+  text4 = 'City';
+  value4 = 'Kyiv';
+
+  text5 = 'Country';
+  value5 = 'Ukraine';
+
+  text6 = 'Position';
+  value6 = 'Frontend Developer';
+
+  text7 = 'Experience';
+  value7 = '2 years';
+
+  text8 = 'Skills';
+  value8 = 'Angular, TS';
 }

@@ -1,8 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cv-item',
   standalone: true,
+  imports: [CommonModule],
   templateUrl: './cv-item.html',
   styleUrl: './cv-item.css',
 })
